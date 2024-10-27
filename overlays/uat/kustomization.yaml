@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+  - namespace.yaml
+  - scc-add-fayaaz-app-sa.yaml  # Include the SCC modification for the UAT namespace
+
+namespace: uat-sunaina  # Set the namespace for this overlay

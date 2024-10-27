@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sunaina-deployment
+  labels:
+    app: sunaina
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sunaina
+  template:
+    metadata:
+      labels:
+        app: sunaina
+    spec:
+      serviceAccountName: sunaina-sa  # Use the created ServiceAccount
+      containers:
+      - name: sunaina
+        image: nginx:latest  # You can replace this with the actual image for your app
+        ports:
+        - containerPort: 80

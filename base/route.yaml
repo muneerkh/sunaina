@@ -1,0 +1,13 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: sunaina-route
+spec:
+  to:
+    kind: Service
+    name: sunaina-service
+  port:
+    targetPort: 80
+  host: sunaina.apps.ocp.sfrsm.local
+  tls:
+    termination: edge

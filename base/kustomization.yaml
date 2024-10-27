@@ -1,0 +1,8 @@
+resources:
+  - deployment.yaml
+  - fayaaz-app-sa.yaml
+  - clusterrole.yaml
+  - rolebinding.yaml
+#  - scc-add-fayaaz-app-sa.yaml
+  - service.yaml
+  - route.yaml
