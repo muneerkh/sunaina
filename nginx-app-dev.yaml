@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sunaina-app
+  name: sunaina-app-dev
   namespace: openshift-gitops  # Change to the namespace where ArgoCD is installed (typically "argocd")
 spec:
   project: default  # ArgoCD project
