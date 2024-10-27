@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: fayaaz-app-rolebinding
+  name: sunaina-app-rolebinding
   namespace: your-namespace  # Placeholder; actual namespace will be set in overlays
 roleRef:
   apiGroup: rbac.authorization.k8s.io

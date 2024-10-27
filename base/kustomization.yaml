@@ -1,6 +1,6 @@
 resources:
   - deployment.yaml
-  - fayaaz-app-sa.yaml
+  - sunaina-app-sa.yaml
   - clusterrole.yaml
   - rolebinding.yaml
 #  - scc-add-fayaaz-app-sa.yaml
