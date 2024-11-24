@@ -8,6 +8,5 @@ spec:
     name: sunaina-service
   port:
     targetPort: 80
-  host: sunaina.apps.ocp.sfrsm.it
   tls:
     termination: edge
